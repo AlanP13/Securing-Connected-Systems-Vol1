@@ -2,7 +2,10 @@
 
 ### A Layered Security Framework for WSNs, IoT/CPS, and Virtualized Networks
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20733453.svg)](https://doi.org/10.5281/zenodo.20733453)
+<a href="https://doi.org/10.5281/zenodo.20733453">
+  <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.20733453.svg" alt="DOI">
+</a>
+
 [![Paper License: CC BY 4.0](https://img.shields.io/badge/Paper-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Code License: MIT](https://img.shields.io/badge/Code-MIT-blue.svg)](LICENSE)
 
