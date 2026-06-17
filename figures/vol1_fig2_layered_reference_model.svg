@@ -1,0 +1,62 @@
+<svg viewBox="0 0 980 600" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <marker id="d2" markerWidth="12" markerHeight="12" refX="8" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8 Z" fill="#6b5d4f"/></marker>
+  </defs>
+  <rect width="980" height="600" fill="#fbfaf7"/>
+  <text x="40" y="42" font-size="22" font-weight="bold" fill="#2b2620">Figure 2. Layered defense reference model for connected systems</text>
+  <text x="40" y="66" font-size="14" fill="#5c5147">Proportionate controls per stratum, bound together by cross-stratum coordination.</text>
+
+  <!-- column headers -->
+  <text x="60"  y="104" font-size="12.5" font-weight="bold" fill="#8a5a2b" letter-spacing="1">STRATUM</text>
+  <text x="250" y="104" font-size="12.5" font-weight="bold" fill="#8a5a2b" letter-spacing="1">PRIMARY OBJECTIVES</text>
+  <text x="470" y="104" font-size="12.5" font-weight="bold" fill="#8a5a2b" letter-spacing="1">DOMINANT THREATS</text>
+  <text x="700" y="104" font-size="12.5" font-weight="bold" fill="#8a5a2b" letter-spacing="1">PROPORTIONATE CONTROLS</text>
+  <line x1="40" y1="114" x2="940" y2="114" stroke="#8a5a2b" stroke-width="1.5"/>
+
+  <!-- Row A -->
+  <rect x="40" y="126" width="900" height="120" rx="6" fill="#ffffff" stroke="#cdbbac" stroke-width="1.2"/>
+  <rect x="40" y="126" width="8" height="120" fill="#8a5a2b"/>
+  <text x="60" y="158" font-size="15" font-weight="bold" fill="#2b2620">A &#183; Device /</text>
+  <text x="60" y="178" font-size="15" font-weight="bold" fill="#2b2620">physical</text>
+  <text x="250" y="152" font-size="12.5" fill="#3a322a">Confidentiality, integrity,</text>
+  <text x="250" y="170" font-size="12.5" fill="#3a322a">safety, energy-availability</text>
+  <text x="470" y="152" font-size="12.5" fill="#3a322a">Node capture, side-channel,</text>
+  <text x="470" y="170" font-size="12.5" fill="#3a322a">sensor spoofing, sleep-</text>
+  <text x="470" y="188" font-size="12.5" fill="#3a322a">deprivation</text>
+  <text x="700" y="152" font-size="12.5" fill="#3a322a">Lightweight crypto; secure</text>
+  <text x="700" y="170" font-size="12.5" fill="#3a322a">boot/attestation; offloaded</text>
+  <text x="700" y="188" font-size="12.5" fill="#3a322a">keys; PQC-ready hierarchy</text>
+
+  <!-- Row B -->
+  <rect x="40" y="256" width="900" height="120" rx="6" fill="#ffffff" stroke="#cdbbac" stroke-width="1.2"/>
+  <rect x="40" y="256" width="8" height="120" fill="#8a5a2b"/>
+  <text x="60" y="288" font-size="15" font-weight="bold" fill="#2b2620">B &#183; Network /</text>
+  <text x="60" y="308" font-size="15" font-weight="bold" fill="#2b2620">routing</text>
+  <text x="250" y="288" font-size="12.5" fill="#3a322a">Integrity, authenticity,</text>
+  <text x="250" y="306" font-size="12.5" fill="#3a322a">availability</text>
+  <text x="470" y="288" font-size="12.5" fill="#3a322a">Wormhole/sinkhole/Sybil,</text>
+  <text x="470" y="306" font-size="12.5" fill="#3a322a">eavesdropping, MitM,</text>
+  <text x="470" y="324" font-size="12.5" fill="#3a322a">transport-layer DoS</text>
+  <text x="700" y="288" font-size="12.5" fill="#3a322a">Authenticated routing;</text>
+  <text x="700" y="306" font-size="12.5" fill="#3a322a">multipath/geographic; trust/</text>
+  <text x="700" y="324" font-size="12.5" fill="#3a322a">reputation; fairness monitoring</text>
+
+  <!-- Row C -->
+  <rect x="40" y="386" width="900" height="120" rx="6" fill="#ffffff" stroke="#cdbbac" stroke-width="1.2"/>
+  <rect x="40" y="386" width="8" height="120" fill="#8a5a2b"/>
+  <text x="60" y="418" font-size="15" font-weight="bold" fill="#2b2620">C &#183; Orchestr. /</text>
+  <text x="60" y="438" font-size="15" font-weight="bold" fill="#2b2620">virtualization</text>
+  <text x="250" y="418" font-size="12.5" fill="#3a322a">All objectives, plus</text>
+  <text x="250" y="436" font-size="12.5" fill="#3a322a">tenant isolation</text>
+  <text x="470" y="418" font-size="12.5" fill="#3a322a">Controller/orchestrator</text>
+  <text x="470" y="436" font-size="12.5" fill="#3a322a">compromise, VNF escape,</text>
+  <text x="470" y="454" font-size="12.5" fill="#3a322a">chain manipulation, supply chain</text>
+  <text x="700" y="418" font-size="12.5" fill="#3a322a">Controller hardening +</text>
+  <text x="700" y="436" font-size="12.5" fill="#3a322a">attestation; VNF integrity;</text>
+  <text x="700" y="454" font-size="12.5" fill="#3a322a">correct SFC; security orchestration</text>
+
+  <!-- cross-stratum coordination bar -->
+  <rect x="40" y="528" width="900" height="46" rx="6" fill="#2b2620"/>
+  <text x="490" y="556" font-size="13.5" font-weight="bold" fill="#e8c9a0" text-anchor="middle">CROSS-STRATUM COORDINATION &#8212; defenses must span layers because attacks do</text>
+  <line x1="490" y1="506" x2="490" y2="526" stroke="#6b5d4f" stroke-width="1.6" marker-end="url(#d2)"/>
+</svg>

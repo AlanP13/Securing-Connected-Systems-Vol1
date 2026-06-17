@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it using the metadata below."
+title: "Securing Connected Systems: A Layered Security Framework for WSNs, IoT/CPS, and Virtualized Networks"
+abstract: >-
+  Wireless sensor networks, IoT and cyber-physical systems, and virtualized
+  networks are usually treated as separate security domains. This monograph
+  unifies them as three strata of one system, develops a cross-stratum threat
+  taxonomy and a layered defense reference model, and grounds the argument in
+  three implementation studies (a from-scratch RSA cryptosystem, an NS-3 study
+  of TCP behavior under congestion, and the SensoryPi encrypted cyber-physical
+  system). Volume 1 of the Engineering-to-Research monograph series.
+type: report
+authors:
+  - family-names: "Palayil"
+    given-names: "Alan Biju"
+    orcid: "https://orcid.org/0009-0004-8302-5090"
+    affiliation: "Independent Researcher; Doctoral Researcher, University of the Cumberlands"
+version: "1.0"
+date-released: "2026-06-15"
+license: "CC-BY-4.0"
+repository-code: "https://github.com/AlanP13/securing-connected-systems-vol1"
+keywords:
+  - wireless sensor networks
+  - Internet of Things
+  - cyber-physical systems
+  - network function virtualization
+  - software-defined networking
+  - lightweight cryptography
+  - secure routing
+  - layered defense
+  - post-quantum cryptography
+  - edge security
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20733453"
+    description: "Zenodo DOI for version 1.0 (after publishing, the concept DOI for all versions is also available on the record page)"

@@ -1,0 +1,48 @@
+<svg viewBox="0 0 960 640" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <marker id="up" markerWidth="12" markerHeight="12" refX="4" refY="8" orient="auto"><path d="M4,0 L8,9 L0,9 Z" fill="#3d6b4f"/></marker>
+    <marker id="dn" markerWidth="12" markerHeight="12" refX="4" refY="0" orient="auto"><path d="M0,0 L8,0 L4,9 Z" fill="#8a5a2b"/></marker>
+  </defs>
+  <rect width="960" height="640" fill="#fbfaf7"/>
+  <text x="40" y="40" font-size="22" font-weight="bold" fill="#2b2620">Figure 3. The Connected Systems Layer Model</text>
+  <text x="40" y="64" font-size="14" fill="#5c5147">Three nested strata of one connected system. Data rises; policy and defense descend; coordination spans all layers.</text>
+
+  <!-- Stratum C -->
+  <rect x="150" y="92" width="640" height="120" rx="8" fill="#efe7da" stroke="#8a7a66" stroke-width="1.5"/>
+  <text x="172" y="120" font-size="15" font-weight="bold" fill="#8a5a2b">STRATUM C. Orchestration and Virtualization</text>
+  <g font-size="12.5" fill="#3a322a">
+    <rect x="172" y="134" width="180" height="56" rx="5" fill="#fff" stroke="#cdbbac"/><text x="186" y="156">SDN controller</text><text x="186" y="176" font-size="11.5" fill="#5c5147">programmable control plane</text>
+    <rect x="366" y="134" width="180" height="56" rx="5" fill="#fff" stroke="#cdbbac"/><text x="380" y="156">NFV orchestrator</text><text x="380" y="176" font-size="11.5" fill="#5c5147">VNF lifecycle, chaining</text>
+    <rect x="560" y="134" width="208" height="56" rx="5" fill="#fff" stroke="#cdbbac"/><text x="574" y="156">Virtual security functions</text><text x="574" y="176" font-size="11.5" fill="#5c5147">firewall, IDS, DPI</text>
+  </g>
+
+  <!-- Stratum B -->
+  <rect x="150" y="246" width="640" height="120" rx="8" fill="#efe7da" stroke="#8a7a66" stroke-width="1.5"/>
+  <text x="172" y="274" font-size="15" font-weight="bold" fill="#8a5a2b">STRATUM B. Network and Routing</text>
+  <g font-size="12.5" fill="#3a322a">
+    <rect x="172" y="288" width="180" height="56" rx="5" fill="#fff" stroke="#cdbbac"/><text x="186" y="310">Routing protocols</text><text x="186" y="330" font-size="11.5" fill="#5c5147">WSN, mesh, ad hoc</text>
+    <rect x="366" y="288" width="180" height="56" rx="5" fill="#fff" stroke="#cdbbac"/><text x="380" y="310">Transport (TCP)</text><text x="380" y="330" font-size="11.5" fill="#5c5147">congestion, flow control</text>
+    <rect x="560" y="288" width="208" height="56" rx="5" fill="#fff" stroke="#cdbbac"/><text x="574" y="310">Gateways</text><text x="574" y="330" font-size="11.5" fill="#5c5147">embedded IP stack, MQTT</text>
+  </g>
+
+  <!-- Stratum A -->
+  <rect x="150" y="400" width="640" height="120" rx="8" fill="#efe7da" stroke="#8a7a66" stroke-width="1.5"/>
+  <text x="172" y="428" font-size="15" font-weight="bold" fill="#8a5a2b">STRATUM A. Devices and Physical Layer</text>
+  <g font-size="12.5" fill="#3a322a">
+    <rect x="172" y="442" width="180" height="56" rx="5" fill="#fff" stroke="#cdbbac"/><text x="186" y="464">Sensor nodes</text><text x="186" y="484" font-size="11.5" fill="#5c5147">I2C, accelerometer</text>
+    <rect x="366" y="442" width="180" height="56" rx="5" fill="#fff" stroke="#cdbbac"/><text x="380" y="464">Microcontrollers</text><text x="380" y="484" font-size="11.5" fill="#5c5147">constrained compute</text>
+    <rect x="560" y="442" width="208" height="56" rx="5" fill="#fff" stroke="#cdbbac"/><text x="574" y="464">Actuators, cameras</text><text x="574" y="484" font-size="11.5" fill="#5c5147">physical world, on-device AI</text>
+  </g>
+
+  <!-- data up arrow (left) -->
+  <line x1="100" y1="470" x2="100" y2="150" stroke="#3d6b4f" stroke-width="3" marker-end="url(#up)"/>
+  <text x="70" y="320" font-size="12.5" fill="#3d6b4f" font-weight="bold" transform="rotate(-90 70 320)" text-anchor="middle">data rises</text>
+
+  <!-- policy down arrow (right) -->
+  <line x1="840" y1="150" x2="840" y2="470" stroke="#8a5a2b" stroke-width="3" marker-end="url(#dn)"/>
+  <text x="872" y="320" font-size="12.5" fill="#8a5a2b" font-weight="bold" transform="rotate(90 872 320)" text-anchor="middle">policy and defense descend</text>
+
+  <!-- coordination band -->
+  <rect x="150" y="540" width="640" height="44" rx="6" fill="#2b2620"/>
+  <text x="470" y="568" font-size="13.5" font-weight="bold" fill="#e8c9a0" text-anchor="middle">Cross-stratum coordination binds the three layers into one security problem</text>
+</svg>
