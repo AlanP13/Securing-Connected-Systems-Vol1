@@ -1,9 +1,0 @@
-[submodule "code/ECE545-Modern-Internet-Technologies"]
-	path = code/ECE545-Modern-Internet-Technologies
-	url = https://github.com/AlanP13/ECE545-Modern-Internet-Technologies.git
-[submodule "code/ECE543-Computer-Network-Security"]
-	path = code/ECE543-Computer-Network-Security
-	url = https://github.com/AlanP13/ECE543-Computer-Network-Security.git
-[submodule "code/ECE442-IoT-and-Cyber-Physical-Systems"]
-	path = code/ECE442-IoT-and-Cyber-Physical-Systems
-	url = https://github.com/AlanP13/ECE442-IoT-and-Cyber-Physical-Systems.git
